@@ -20,7 +20,8 @@ function registrarEventos() {
 function mostrarFormulario(oEvento) {
   let opcionMenu = oEvento.target.id; 
 
-  ocultarFormularios();
+  ocultarFormularios2();
+ocultarFormularios();
 
   switch (opcionMenu) {
 
@@ -28,11 +29,11 @@ function mostrarFormulario(oEvento) {
       frmAltaVenta.classList.remove("d-none");
 
       actualizarDesplegableProductos(); 
-      break;
+        break;
   }
 }
 
-function ocultarFormularios() {
+function ocultarFormularios2() {
 
     if (typeof frmAltaVenta !== 'undefined') {
         frmAltaVenta.classList.add("d-none");
@@ -129,6 +130,7 @@ function validarAltaVenta(sale_date, product_quantity, id_product) {
 
 
 async function procesarListadoVentas() {
+    ocultarFormularios2();
     ocultarFormularios();
     
     let respuesta = await oEmpresa.listadoVentas();
