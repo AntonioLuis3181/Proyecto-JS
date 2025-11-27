@@ -6,7 +6,7 @@ Victor:Produto
 
 Lo que no esta dentro de Proyecto_js es lo que le ha dado tiempo a Victor a subir que no se ha podido implementar con el resto del proyecto 
 
-Web del host:https://novavibe.great-site.net/
+Web del host: https://novavibe.great-site.net/
 
     basedatos : if0_40398736_nova_vibe,
     usuario : if0_40398736,
